@@ -200,30 +200,27 @@ input::placeholder {
 } */
 
 .hypebeast {
-  /* text-align: center; */
-  /* display: flex; */
+  position: relative;
+  text-align: center;
 }
-.hypebeast_img {
+/* .hypebeast_img {
   text-align: center;
 
   position: relative;
-}
-.hypebeast_image {
+} */
+/* .hypebeast_image {
   position: relative;
-  z-index: 1;
-}
-.shop_now {
+  z-index: 1; */
+/* } */
+.centered {
   position: absolute;
-  z-index: 2;
-  top: 666px;
-  bottom: 70px;
-  right: 750.84px;
-  text-align: center;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 164.32px;
   height: 43.11px;
   border: 1px solid #faf3f3;
-}
-.shop_now_text {
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -232,8 +229,9 @@ input::placeholder {
   text-transform: uppercase;
   text-decoration: none;
   color: #faf3f3;
-  padding-top: 15px;
+  padding-top: 5px;
 }
+
 .products {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -242,7 +240,6 @@ input::placeholder {
   -ms-flex-direction: row;
   flex-direction: row;
   justify-content: center;
-  /* text-align: center; */
 }
 
 .left {
@@ -251,7 +248,6 @@ input::placeholder {
 .left_text {
   width: 294.71px;
   height: 30.45px;
-  /* margin: 31px; */
   margin-top: 30px;
   margin-bottom: 21.39px;
   margin-left: 85px;
@@ -442,6 +438,7 @@ input::placeholder {
 
 .sneak_img_1 {
   width: 100%;
+  /* position: relative; */
 }
 .sneakers_image {
   position: relative;
@@ -452,6 +449,10 @@ input::placeholder {
   position: absolute;
 
   opacity: 0.5;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
 }
 
 .img_sneak_001 {
