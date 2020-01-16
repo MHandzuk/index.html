@@ -69,15 +69,15 @@ body {
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
-  /* padding-left: 20%; */
-
   justify-content: center;
   height: 70px;
   width: 100%;
   background: #b12626;
 }
-
-input {
+.header_logo:hover {
+  opacity: 0.9;
+}
+.search_1 {
   width: 555px;
   height: 34px;
   background: #faf3f3;
@@ -431,46 +431,40 @@ input::placeholder {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  /* width: 950px;
-  height: 445.07px; */
-  /* margin-left: 30px; */
 }
 
 .sneak_img_1 {
   width: 100%;
-  /* position: relative; */
+  position: relative;
+  z-index: 1;
 }
 .sneakers_image {
   position: relative;
   z-index: 1;
-  margin-left: 70px;
+  width: 458px;
+  height: 445.07px;
+  width: 488px;
+  height: 366px;
+  position: relative;
+  margin-left: 65px;
 }
 .sneak_img_01 {
   position: absolute;
-
   opacity: 0.5;
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
 }
 
 .img_sneak_001 {
-  width: 327px;
-  height: 327px;
   position: absolute;
   z-index: 2;
-}
-.sneakers_image_2 {
-  margin-left: 165px;
-  position: relative;
-  z-index: 1;
+  width: 488px;
+  height: 366px;
 }
 
 .sneak_img_2 {
   width: 488px;
   height: 366px;
   position: relative;
+  margin-left: 65px;
 }
 .sneak_img_02 {
   position: absolute;
@@ -492,8 +486,8 @@ input::placeholder {
   height: 29.21px;
   margin: 0 auto;
   padding-top: 52px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 42px;
+  margin-bottom: 42px;
 }
 
 .resent_text {
@@ -545,6 +539,7 @@ input::placeholder {
 .logo_3 {
   margin-top: 44px;
 }
+
 .help_3,
 .about_3,
 .contact_us_3 {
@@ -621,6 +616,7 @@ input::placeholder {
 .contact_us_3 {
   width: 165.67px;
   text-align: left;
+  text-decoration: none;
 }
 
 .contact_us_3_1 {
@@ -629,14 +625,15 @@ input::placeholder {
   margin-left: 60px;
   margin-top: -8px;
 }
-
+.contact_us_3_2 {
+  text-decoration: none;
+}
 #contact_us_3_2 {
   text-decoration: none;
   width: 165.67px;
   height: 24.84px;
   color: #faf3f3;
   text-transform: uppercase;
-  /* margin-bottom: 12.19px; */
 }
 
 .contact_us_3_tittle {
@@ -645,32 +642,43 @@ input::placeholder {
   font-size: 24px;
   line-height: 29px;
   color: #faf3f3;
-  margin-bottom: -10px;
+  margin-bottom: -13px;
 }
+/* .contact_us_3_1,
+.contact_us_3_2,
+.contact_us_3_4 {
+  padding-bottom: bottom 15px;
+} */
 .contact_us_3_1_1 {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   color: #faf3f3;
-  margin-bottom: -15px;
+  text-decoration: none;
+  margin-bottom: 8px;
 }
-/* .online_media {
-  margin-top: 20px;
-} */
-/* .online_media_1 {
-  background: #000;
+
+#online_media {
+  margin-top: 2px;
+  padding-right: 40px;
+  margin-bottom: -35px;
+}
+.online_media_1 {
+  /* background: #000; */
+  color: #000;
   border-radius: 50%;
-  width: 37px;
-  height: 37px;
-} */
+}
 
 .sign_up_3 {
+  height: 146px;
   width: 500px;
   margin-left: 45px;
   background: #0d0202;
+  transform: skew(-8deg);
 }
 .sign_up_3_tittle {
+  transform: skew(8deg);
   width: 382.23px;
   height: 23px;
 }
@@ -682,6 +690,7 @@ input::placeholder {
   color: #faf3f3;
 }
 .search_3 {
+  margin-top: 26px;
   width: 485px;
 }
 #form_2 {
@@ -700,9 +709,11 @@ input::placeholder {
 
 #form_2_2 {
   width: 102.51px;
-  height: 30px;
+  height: 31px;
   background: #b12626;
   color: #faf3f3;
+  margin-left: -7px;
+  border: none;
 }
 
 #send_3 {
@@ -711,4 +722,42 @@ input::placeholder {
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
+  transform: skew(8deg);
+}
+
+.wrapper_finish {
+  background: #c4c4c4;
+  height: 30px;
+}
+
+.wrapper_finish_1 {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.wrapper_finish_1_1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.wrapper_finish_1_1_1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 545px;
+}
+
+.wrapper_finish_1_1_1_2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  margin-right: 28px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 6px;
 }
