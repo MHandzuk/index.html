@@ -147,14 +147,26 @@ input::placeholder {
 .sale_1 {
   text-transform: uppercase;
   text-decoration: none;
-  margin-right: 47px;
+  margin-right: 40px;
   color: #140202;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  margin-top: 6.18px;
+  /* margin-top: 4.18px; */
+  width: 100.65px;
+  height: 34.83px;
+  transform: skew(-11deg);
 }
+.sale_11 {
+  padding-top: 6px;
+  transform: skew(11deg);
+}
+#sale_11 {
+  width: 130.65px;
+  height: 34.83px;
+}
+
 .sale_1:hover {
   color: #faf3f3;
   background: #000;
