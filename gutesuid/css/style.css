@@ -498,7 +498,8 @@ input::placeholder {
   text-transform: uppercase;
   color: #000000;
 }
-.tommy {
+
+#tommy {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -508,16 +509,9 @@ input::placeholder {
   text-align: center;
 }
 .tommy_1 {
-  margin-left: 30px;
+  /* margin-left: 30px; */
   margin-bottom: 121px;
 }
-/* #carouselExampleIndicators .active {
-  background-color: #302640;
-}
-.carousel-indicators li {
-  background-color: #fcc43e;
-  opacity: 1;
-} */
 
 .container_3 {
   width: 100%;
@@ -543,12 +537,15 @@ input::placeholder {
 .help_3,
 .about_3,
 .contact_us_3 {
-  margin-top: 22px;
+  /* margin-top: 22px; */
   color: #faf3f3;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
   margin-left: 60px;
+}
+.about_3 {
+  margin-top: 20px;
 }
 .help_3 {
   width: 72px;
@@ -728,6 +725,8 @@ input::placeholder {
 .wrapper_finish {
   background: #c4c4c4;
   height: 30px;
+  color: #140202;
+  text-decoration: none;
 }
 
 .wrapper_finish_1 {
@@ -736,18 +735,24 @@ input::placeholder {
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  color: #140202;
+  text-decoration: none;
 }
 
 .wrapper_finish_1_1 {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  color: #140202;
+  text-decoration: none;
 }
 
 .wrapper_finish_1_1_1 {
   display: flex;
   flex-direction: row;
   margin-left: 545px;
+  color: #140202;
+  text-decoration: none;
 }
 
 .wrapper_finish_1_1_1_2 {
@@ -760,4 +765,6 @@ input::placeholder {
   text-align: center;
   justify-content: center;
   margin-top: 6px;
+  color: #140202;
+  text-decoration: none;
 }
