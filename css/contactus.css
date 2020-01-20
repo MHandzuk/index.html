@@ -77,7 +77,6 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
-  margin-bottom: -2px;
   color: #000;
 }
 
@@ -87,7 +86,6 @@ body {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
-  margin-bottom: -9px;
   color: #140202;
 }
 
@@ -103,4 +101,86 @@ body {
   width: 810px;
   height: 451.83px;
   background: #e0e0e0;
+}
+.footer_1 {
+  margin: 0 30px;
+  padding-top: 24px;
+}
+.mail {
+  display: flex;
+  flex-direction: row;
+}
+.mail_1 {
+  margin-right: 30px;
+}
+
+.mail_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.input_2 {
+  width: 360px;
+  height: 35px;
+}
+
+.input_1 {
+  width: 360px;
+  height: 35px;
+}
+
+.counry {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: row;
+}
+.country_selector {
+  width: 360px;
+  height: 35px;
+  margin-right: 30px;
+  color: #c1b7b7;
+}
+
+.input_5 {
+  width: 360px;
+  height: 35px;
+}
+
+input::placeholder {
+  padding-left: 10px;
+}
+.comment {
+  margin-top: 22px;
+}
+.comment_1 {
+  align-items: flex-start;
+}
+.input_6 {
+  width: 750px;
+  height: 207.52px;
+}
+textarea::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+.button {
+  width: 298px;
+  height: 43px;
+  margin: 0 auto;
+  background: #140202;
+  color: #faf3f3;
+  border: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 25px;
 }
